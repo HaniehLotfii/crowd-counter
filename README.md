@@ -9,11 +9,11 @@ This repository provides a simple script to detect and count people in an image 
 
 ## Installation
 ```
-git clone https://github.com/Mahsaelv/Crowd-Counter.git
+git clone https://github.com/HaniehLotfii/crowd-counter.git
 ```
 
 ```
-cd Crowd-Counter
+cd crowd-counter
 ```
 ```bash
 pip install -r requirements.txt
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ### Usage
 
 ```
-python detect_people.py <IMAGE_PATH> [--conf CONF] [--iou IOU]
+python main.py <IMAGE_PATH> [--conf CONF] [--iou IOU]
 ```
 
 - <IMAGE_PATH>: Path to the input image.
@@ -32,6 +32,6 @@ python detect_people.py <IMAGE_PATH> [--conf CONF] [--iou IOU]
 
 ### Example:
 ```
-python detect_people.py sample.jpg --conf 0.25 --iou 0.5
+python main.py sample.jpg --conf 0.25 --iou 0.5
 ```
 The script will generate ```out.jpg``` with annotated boxes and print the count.
